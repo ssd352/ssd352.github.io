@@ -1,0 +1,57 @@
+*{
+    margin: 0pt;
+    padding: 0pt;
+}
+
+body{
+ line-height:1.5;
+}
+
+header{
+    background-color: lightgrey;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+nav{
+    background-color: black;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+    float: left;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+    
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    padding: 1rem 0 1rem 0;
+}
+
+main form{
+    text-align: center;
+    padding: 2rem;
+    /*height: 50vh;*/
+}
+
+footer{
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(lightgray));
+    background-image: -webkit-linear-gradient(top, grey, lightgray);
+    background-image: -moz-linear-gradient(top, grey, lightgray);
+    background-image: linear-gradient(to bottom, grey, lightgray);
+    /*background-color: gray;*/
+}
+footer img{
+    border-radius: 1rem;
+}
