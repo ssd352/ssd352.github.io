@@ -1,0 +1,9 @@
+[submodule "iphone-calculator"]
+	path = iphone-calculator
+	url = https://github.com/ssd352/iphone-calculator.git
+[submodule "fiver"]
+	path = fiver
+	url = https://github.com/ssd352/fiver.git
+[submodule "fractals"]
+	path = fractals
+	url = https://github.com/ssd352/fractals.git
