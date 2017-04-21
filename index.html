@@ -7,8 +7,25 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <style>
+	#write{
+		text-align: center;
+		padding: 1rem;
+		background: gray; 
+		background: -webkit-linear-gradient(gray, white);
+		background: -o-linear-gradient(gray, white); 
+		background: -moz-linear-gradient(gray, white); 
+		background: linear-gradient(gray, white);
+	}
+	body{
+		background-color:black
+	}
+	table{
+		width:100%;
+	}
+  </style>
 </head>
-<body style="background-color:black">
+<body>
 
 
   <header class="jumbotron text-center col-sm-12">
@@ -19,7 +36,7 @@
 		<a href="fiver">
 			<div class="col-sm-4">
 				<div class="thumbnail text-center">
-				<table style="width:100%;">
+				<table>
 					<tbody><tr><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td></tr><tr><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td></tr><tr><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td><td><img src="fiver/svg/full.svg" style="width: 100%;"></td></tr></tbody>
 				</table>	
 					<div class="caption">
@@ -82,5 +99,16 @@
   </a>
 </div>
 -->
+<footer>
+  <!--<img src="https://projecteuler.net/profile/ssd352.png" alt="Project Euler" />-->
+  <p id="write">
+    &copy 
+    <script>
+    var node = document.getElementById("write");
+        node.innerText += new Date().getUTCFullYear();
+        </script>
+        SSD
+  </p>
+</footer>
 </body>
 </html>
