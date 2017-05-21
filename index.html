@@ -11,10 +11,10 @@
 	#write{
 		text-align: center;
 		padding: 1rem;
-		background: gray; 
+		background: gray;
 		background: -webkit-linear-gradient(gray, white);
-		background: -o-linear-gradient(gray, white); 
-		background: -moz-linear-gradient(gray, white); 
+		background: -o-linear-gradient(gray, white);
+		background: -moz-linear-gradient(gray, white);
 		background: linear-gradient(gray, white);
 	}
 	body{
@@ -29,6 +29,19 @@
 		font-family: "Times New Roman";
 		margin: 1em 0;
 	}
+  .row{
+    width: 100vw;
+    margin-left: 0;
+  }
+  .jumbotron{
+    width: 100%;
+  }
+  header{
+    width: 100vw;
+  }
+  footer{
+    width: 100vw;
+  }
   </style>
 </head>
 <body>
@@ -37,14 +50,14 @@
   <header class="jumbotron text-center col-sm-12">
     <h1>Hello World!</h1>
   </header>
-  
+
 	<div class="row">
 		<a href="fiver">
 			<div class="col-sm-6">
 				<div class="thumbnail text-center">
 				<table>
 					<tbody><tr><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td></tr><tr><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td></tr><tr><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td><td><img src="svg/full.svg" style="width: 100%;"></td></tr></tbody>
-				</table>	
+				</table>
 					<div class="caption">
 						<button type="button" class="btn btn-primary btn-block" >
 							Lights Out
@@ -53,11 +66,11 @@
 				</div>
 			</div>
 		</a>
-		
+
 		<a href="fractals">
 			<div class="col-sm-6">
 				<div class="thumbnail text-center">
-					<img src="svg/carpet.svg" alt="Fractals"/>	
+					<img src="svg/carpet.svg" alt="Fractals"/>
 					<div class="caption">
 						<button type="button" class="btn btn-primary btn-block" >
 							Fractals
@@ -67,11 +80,11 @@
 			</div>
 		</a>
 	</div>
-	<div class="row">	
+	<div class="row">
 		<a href="iphone-calculator">
 			<div class="col-sm-6">
 				<div class="thumbnail text-center">
-						<img style="width:50%;float:left;padding-bottom:1em;" src="img/Screenshots/IMG_0029.PNG" alt="My Calculator"/>	
+						<img style="width:50%;float:left;padding-bottom:1em;" src="img/Screenshots/IMG_0029.PNG" alt="My Calculator"/>
 						<img style="width:50%;float:left;padding-bottom:1em;" src="img/Screenshots/IMG_0030.PNG" alt="Apple Calculator app"/>
 					<div class="caption">
 						<button style="clear:both;" type="button" class="btn btn-primary btn-block">
@@ -81,7 +94,7 @@
 				</div>
 			</div>
 		</a>
-		
+
 		<a href="leap-year-detector">
 			<div class="col-sm-6">
 				<div class="thumbnail text-center">
@@ -97,19 +110,19 @@
 			</div>
 		</a>
 	</div>
-  
+
 
 <!--
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      
+
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">Page 1</a></li>
-      <li><a href="#">Contact Us</a></li> 
-      <li><a href="#">About</a></li> 
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About</a></li>
     </ul>
   </div>
 </nav>
@@ -124,7 +137,7 @@
 <footer>
   <!--<img src="https://projecteuler.net/profile/ssd352.png" alt="Project Euler" />-->
   <p id="write">
-    &copy 
+    &copy
     <script>
     var node = document.getElementById("write");
         node.innerText += new Date().getUTCFullYear();
