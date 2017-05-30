@@ -16,7 +16,7 @@
 	#twenty-twenty{
 		
 		/*position: relative;*/
-        padding: calc((1334 / 750 / 2 * 100% - 72pt)/2 - 3.5%) 0;
+        padding: calc((1334 / 750 / 2 * 100% - 72pt)/2 - 16.8pt) 0;
         /*margin: 0 auto;*/
         color: black;
 		font-size: 72pt;
