@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/style.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+	<script src="leap-year-detector/leap-year.js"></script>
 <script>
 /**
 * Function that tracks a click on an outbound link in Analytics.
@@ -101,7 +102,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="thumbnail text-center">
 					
 								<p id="twenty-twenty">
-									2020
+									<script>
+										par = document.getElementById("twenty-twenty");
+										par.innerText = getNextLeapYear();
+									</script>
 								</p>
 							
 						
